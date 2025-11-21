@@ -1,0 +1,16 @@
+checkpoints/
+datasets/
+*.log
+*.tmp
+__pycache__/
+.env
+src/txts/
+*.png
+*.txt
+*.wandb
+*.json
+wandb/
+*.pth
+
+!requirements.txt
+!CMakeLists.txt
