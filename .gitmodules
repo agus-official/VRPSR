@@ -1,15 +1,15 @@
 [submodule "cpp/pybind11"]
 	path = cpp/pybind11
-	url = git@github-agus:pybind/pybind11.git
+	url = https://github.com/pybind/pybind11.git
 [submodule "cpp/libyuv"]
 	path = cpp/libyuv
-	url = https://chromium.googlesource.com/libyuv/libyuv
+	url = https://github.com/lemenkov/libyuv.git
 [submodule "cpp/vvenc"]
 	path = cpp/vvenc
-	url = git@github-agus:fraunhoferhhi/vvenc.git
+	url = https://github.com/fraunhoferhhi/vvenc.git
 [submodule "cpp/x264"]
 	path = cpp/x264
-	url = https://code.videolan.org/videolan/x264.git
+	url = https://github.com/mirror/x264.git
 [submodule "cpp/x265"]
 	path = cpp/x265
-	url = git@github-agus:videolan/x265.git
+	url = https://github.com/videolan/x265.git
