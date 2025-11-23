@@ -172,7 +172,7 @@ To further improve robustness at low bitrate, VRPSR also supports:
 
 ## 📈 Performance Highlights
 <p align="center">
-  <img src="docs/figs/bitrate_saving.pdf" width="50%">
+  <img src="docs/figs/bitrate_saving.png" width="50%">
 </p>
 <p align="center"><em>VRPSR consistently saves more than 10% bitrate across codecs (H.264/H.265/H.266) and SR backbones.</em></p>
 
