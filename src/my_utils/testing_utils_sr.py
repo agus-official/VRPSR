@@ -48,7 +48,7 @@ def parse_args_paired_testing(input_args=None):
    """
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("--model", type=str, choices=["s3diff", "realesrgan"], required=True)
+    parser.add_argument("--model", type=str, choices=["s3diff", "realesrgan"])
     parser.add_argument("--qp_min", type=int, default=25)
     parser.add_argument("--qp_max", type=int, default=51)
 

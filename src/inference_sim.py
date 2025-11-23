@@ -25,7 +25,6 @@ from diffusers.utils.import_utils import is_xformers_available
 from diffusers.optimization import get_scheduler
 
 from de_net import DEResNet
-from s3diff import S3Diff
 from s3diff_meta_embed import S3DiffMetaEmbed
 
 from pathlib import Path
