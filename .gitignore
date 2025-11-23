@@ -5,7 +5,6 @@ datasets/
 __pycache__/
 .env
 src/txts/
-*.png
 *.txt
 *.wandb
 *.json
