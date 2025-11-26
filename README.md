@@ -1,8 +1,11 @@
 # VRPSR: Versatile Recompression-Aware Perceptual Image Super-Resolution
 
 <p align="center">
-  <a href="https://arxiv.org/abs/XXXX.XXXXX">
-    <img src="https://img.shields.io/badge/arXiv-Coming%20soon-b31b1b?logo=arxiv" alt="arXiv">
+  <a href="https://arxiv.org/abs/2511.18090">
+    <img src="https://img.shields.io/badge/arXiv-2511.18090-b31b1b?logo=arxiv" alt="arXiv">
+  </a>
+  <a href="https://arxiv.org/pdf/2511.18090">
+    <img src="https://img.shields.io/badge/PDF-Download-blue?logo=adobeacrobatreader" alt="PDF">
   </a>
   <a href="https://huggingface.co/agus-official/vrpsr-checkpoints">
     <img src="https://img.shields.io/badge/Models-HuggingFace-ffcd00?logo=huggingface" alt="HuggingFace">
@@ -32,7 +35,8 @@
 
 ---
 
-> **Paper:** Versatile Recompression-Aware Perceptual Image Super-Resolution  
+> **Paper:** https://arxiv.org/abs/2511.18090  
+> **PDF:** https://arxiv.org/pdf/2511.18090  
 > **Code:** https://github.com/agus-official/VRPSR  
 > **Checkpoints:** https://huggingface.co/agus-official/vrpsr-checkpoints  
 
@@ -472,7 +476,17 @@ Intended use:
 
 If you find VRPSR useful in your research, please consider citing:
 
-(ArXiv preprint link will be added here once available.)
+```bibtex
+@misc{he2025versatilerecompressionawareperceptualimage,
+      title={Versatile Recompression-Aware Perceptual Image Super-Resolution}, 
+      author={Mingwei He and Tongda Xu and Xingtong Ge and Ming Sun and Chao Zhou and Yan Wang},
+      year={2025},
+      eprint={2511.18090},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2511.18090}, 
+}
+```
 
 ------
 
@@ -484,23 +498,23 @@ The code and pretrained models are released under:
 
 You may:
 
-- Share and adapt the material for **non-commercial** purposes,
-- As long as you provide proper attribution and indicate if changes were made.
+* Share and adapt the material for **non-commercial** purposes,
+* As long as you provide proper attribution and indicate if changes were made.
 
 For **commercial use**, please contact the authors.
 
-More details: https://creativecommons.org/licenses/by-nc/4.0/
+More details: [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
 
-------
+---
 
 ## 🤝 Acknowledgements
 
 VRPSR builds upon and benefits from several open-source projects, including but not limited to:
 
-- **Real-ESRGAN**
-- **S3Diff / Stable Diffusion**
-- **Diffusers**, **Accelerate**, and related libraries
-- Traditional codecs: **x264**, **x265**, **vvenc**
+* **Real-ESRGAN**
+* **S3Diff / Stable Diffusion**
+* **Diffusers**, **Accelerate**, and related libraries
+* Traditional codecs: **x264**, **x265**, **vvenc**
 
 Huge thanks to the open-source community for making this work possible. 💙
 
