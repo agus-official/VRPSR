@@ -1,0 +1,5 @@
+# Additions to the repository environment; NOT a validated version lock.
+# Prefer your existing working training environment. Do not upgrade it blindly.
+-r requirements.txt
+peft
+vision-aided-loss
